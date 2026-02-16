@@ -42,7 +42,7 @@ Prédictions vs Réel (Droite)
 * Le nuage de points est dense autour de la diagonale ($y=x$).
 * On observe une dispersion due à la variabilité humaine (RMSE $\approx$ 40 kWh), mais pas de structure non-linéaire que le modèle aurait ratée.
 
-![Analyse des résidus](/assets/images/model_final_analysis.png)
+![Analyse des résidus](assets/images/model_final_analysis.png)
 
 Pour un déploiement réel, nous recommandons le modèle Ridge (Partie 4). Il est plus simple, plus interprétable, et offre
 la meilleure performance (RMSE la plus basse) sur les données de test.
