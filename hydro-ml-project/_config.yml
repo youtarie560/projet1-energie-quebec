@@ -25,7 +25,7 @@ kramdown:
 title: "Project Hydro: Linear Models from Scratch"
 email: yosri.ketata@umontreal.ca
 description: "Predicting energy consumption using OLS, Ridge, and Logistic Regression."
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "projet1-energie-quebec"
 url: "https://youtarie560.github.io"
 twitter_username: jekyllrb
 github_username:  jekyll
