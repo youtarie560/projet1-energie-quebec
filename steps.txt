@@ -1,0 +1,16 @@
+# Install the core Jekyll software and the dependency manager
+gem install jekyll bundler
+
+# Create a new blank site named 'hydro-ml-project'
+jekyll new hydro-ml-project
+
+# Go into the new directory
+cd hydro-ml-project
+
+# _config.yml
+markdown: kramdown
+theme: minima
+title: "Project Hydro: Linear Models from Scratch"
+description: "Predicting energy consumption using OLS, Ridge, and Logistic Regression."
+
+bundle exec jekyll serve
