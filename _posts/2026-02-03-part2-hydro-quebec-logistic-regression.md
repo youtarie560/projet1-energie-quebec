@@ -118,7 +118,7 @@ def logistic_predict_proba(X, beta):
 
 ## Convergence de l'entraînement
 Nous avons entraîné le modèle en utilisant la **Descente de Gradient** sur 500 itérations. Comme le montre la figure ci-dessous, la fonction de perte (entropie croisée) diminue régulièrement, ce qui confirme que notre implémentation manuelle du gradient est correcte et que le modèle apprend.
-![Convergence Plot](/assets/images/Code_Generated_Image.png)
+![Convergence Plot](assets/images/Code_Generated_Image.png)
 *Figure 1 : Diminution de la perte d'entropie croisée au fil des itérations.*
 
 ## Évaluation et le Paradoxe de l'Exactitude
